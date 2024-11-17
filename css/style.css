@@ -1,0 +1,53 @@
+body {
+  background-attachment: fixed;
+  background-image: url(../img/image.png);
+  background-size: cover;
+}
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+h1 {
+  /* Mau chu */
+  color: bisque;
+  /* Kieu chu */
+  font-style: italic;
+  /* Phong chu */
+  font-family: "Times New Roman", Times, serif;
+  /* Chuyen hoa - thuong */
+  text-transform: capitalize;
+  /* Can Giua */
+  text-align: center;
+  /* Co chu */
+  font-size: 50px;
+  opacity: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Picture {
+  text-align: center;
+}
+
+.Home {
+  text-align: center;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+img {
+  transition: 1.5s;
+}
+
+input:checked ~ img {
+  /* display: none; */
+  visibility: hidden;
+}
